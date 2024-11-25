@@ -23,7 +23,7 @@ NeatDown to rozszerzenie do przeglądarki Chrome, które automatycznie porządku
 3. Gotowe! Teraz podczas pobierania plików ich nazwy będą automatycznie zmieniane według Twoich reguł
 
 ## Instalacja 💻
-- Pobierz ostatnią dostępną wersje .zip z relases
+- Pobierz ostatnią dostępną wersje .zip z ![relases](https://github.com/xAxee/autorename-file-chrome-extension/releases)
 - Wejdź na chrome://extensions
 - Przeciągnij .zip na strone rozszerzeń
 - Ciesz się rozszerzeniem!
