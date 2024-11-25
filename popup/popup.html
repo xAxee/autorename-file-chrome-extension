@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>Downloaded file's name changer</title>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-actions">
+        <a class="icon-button" id="languageToggle">
+          <i class="fas fa-language"></i>
+        </a>
+        <a href="https://github.com/xAxee/RenameExt" target="_blank" class="icon-button">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="expressions-list">
+        <h2>Lista wyrażeń do zamiany</h2>
+        <table id="expressionsTable">
+          <thead>
+            <tr>
+              <th>Co zamienić</th>
+              <th>Na co zamienić</th>
+              <th>Akcje</th>
+            </tr>
+          </thead>
+          <tbody id="expressionsList">
+            <!-- expression list -->
+          </tbody>
+          <tfoot>
+            <tr class="new-expression-row">
+              <td><input type="text" id="whatInput" placeholder="Co zamienić" /></td>
+              <td><input type="text" id="forWhatInput" placeholder="Na co zamienić" /></td>
+              <td>
+                <button id="addExpression">
+                  <i class="fas fa-plus"></i> Dodaj
+                </button>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

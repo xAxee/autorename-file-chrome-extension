@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "NeatDown - Auto renamed Downloaded files",
+    "short_name": "NeatDown",
+    "description": "Keep your downloads folder spotless! NeatDown cleans up messy file names automatically",
+    "version": "1.0.0",
+    "homepage_url": "https://github.com/xAxee/RenameExt",
+    "version_name": "final v1",
+    "author": "https://github.com/xAxee",
+    "action": {
+        "default_title": "Downloaded file's name changer",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [ 
+        "downloads",
+        "storage",
+        "downloads.shelf"
+    ],
+    "host_permissions": [ "*://*/*" ],
+    "background": {
+        "service_worker": "src/background.js",
+        "type": "module"
+    },
+    "content_scripts": [{
+        "js": ["src/foreground.js"],
+        "matches": ["file://*/*", "http://*/*", "https://*/*"],
+        "run_at": "document_start"
+    }],
+    "icons": {
+        "192": "logo/icon-192x192.png"
+    }
+}
