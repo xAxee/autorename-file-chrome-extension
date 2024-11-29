@@ -4,7 +4,7 @@
     "short_name": "NeatDown",
     "description": "Keep your downloads folder spotless! NeatDown cleans up messy file names automatically",
     "version": "1.0.0",
-    "homepage_url": "https://github.com/xAxee/RenameExt",
+    "homepage_url": "https://github.com/xAxee/autorename-file-chrome-extension",
     "version_name": "final v1",
     "author": "https://github.com/xAxee",
     "action": {
